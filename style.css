@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, serif;
+    background-color: royalblue;
+    max-width: 600px;
+    min-width: fit-content;
+    margin: 20px auto;
+}
+
+.box {
+    box-shadow: 3px 3px 5px rgb(0 0 0 / 0.5);
+    border-radius: 30px;
+    background-color: skyblue;
+    min-height: 500px;
+    padding: 10px;
+}
+
+.center-screen {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+h1 {
+    color: navy;
+}
+
+.top {
+    color: white;
+}
+
+.button-list {
+    margin: 0 auto;
+    text-align: center;
+    list-style: none;
+    display: contents;
+}
+
+.button-list li a {
+    display: block;
+    vertical-align: top;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    border-style: solid;
+    background: dodgerblue;
+    border-color: royalblue;
+    transition: background-color 0.3s ease;
+}
+
+.button-list a:hover {
+    background-color: deepskyblue;
+    border-color: white;
+}
+
+.bordered-circle {
+    border-style: solid;
+    background: dodgerblue;
+    border-radius: 50%;
+}
